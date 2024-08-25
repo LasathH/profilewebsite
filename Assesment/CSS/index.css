@@ -1,0 +1,42 @@
+#wrapper {display: grid;
+    grid-template-areas: "title title"
+                            "overview overview"
+                            "highlights aboutme"
+                            "contactme contactme";
+padding: 200px;
+grid-gap: 10px;
+background-color: black}
+
+#title{grid-area: title;
+color: coral;
+font-size: 100px;
+text-align:center;
+text-decoration: underline;
+border-radius: 20px}
+
+#overview{grid-area: overview;
+color: teal;
+font-size: 50px;
+text-align: center;
+background-color: coral;
+    text-shadow:2px 2px teal;
+border-radius: 20px}
+
+#highlights{grid-area:highlights;
+background-color: teal;
+text-align: center;
+border-radius: 20px;
+font-family: "Aboreto", monospace;}
+
+#aboutme{grid-area: aboutme;
+background-color: teal;
+text-align: center;
+border-radius: 20px;
+font-family: "Aboreto", monospace;}
+
+#contactme{grid-area: contactme;
+background-color: teal;
+text-align: center;
+border-radius: 20px;
+font-family: "Aboreto", monospace;}
+

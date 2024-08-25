@@ -1,0 +1,113 @@
+#wrapper {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "nav nav nav"
+        "title title title"
+        "image main main"
+        "image2 main2 main2"
+        "pepeha pepeha pepeha"
+        "image3 image3 image3"
+        "footer footer footer";
+    background-color: black;}
+
+#nav {display: grid;
+    grid-template-areas: "highlights homepage contactus";
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: coral;
+    grid-area: nav;}
+
+#title {grid-area: title;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 20px;
+    color: teal;}
+
+#image {grid-area: image;}
+
+#image2 {grid-area: image2;
+    margin-bottom: 20px;
+margin-right: 20px;
+text-align: left}
+
+#main {grid-area: main;
+    font-size: 18px;
+    font-family: "Shadows Into Light", fantasy;
+    border-radius: 25px;
+    background: coral;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+        "main10 main10"
+        "myphotos myphotos2"
+        "myphotos3 myphotos4";
+    margin-left: 10px;
+    grid-gap: 0px;}
+
+#main2 {grid-area: main2;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Shadows Into Light", fantasy;
+    border-radius: 25px;
+    background: coral;
+    padding: 10px;
+    margin-top: 20px;
+margin-bottom: 20px;
+height: 70px}
+
+#image3 {grid-area: image3;
+    text-align: center;}
+
+#pepeha {grid-area: pepeha;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: "Merriweather", sans-serif;
+    color: teal}
+
+#footer {display: grid;
+    grid-template-areas: "text1 text2 text3";
+    grid-gap: 30px;
+    padding: 10px;
+    background-color: coral;
+    text-align: center;
+grid-area: footer}
+
+#highlights {background-color: teal;
+    border-radius: 25px;
+    width: 94px;
+    height: 10px;
+    padding: 10px;
+font-family: "Aboreto", monospace;}
+
+#contactus {grid-area: contactus;
+    background-color: teal;
+    border-radius: 25px;
+    width: 98px;
+    height: 10px;
+    padding: 10px;
+font-family: "Aboreto", monospace;}
+
+#homepage {background-color: teal;
+    border-radius: 25px;
+    width: 94px;
+    height: 10px;
+    padding: 10px;
+font-family: "Aboreto", monospace;}
+
+img {width: 400px;
+    border-radius: 20%;}
+
+#myphotos { grid-area: myphotos;}
+
+#myphotos2 {grid-area: myphotos2;}
+
+#myphotos3 {grid-area: myphotos3;}
+
+#myphotos4 { grid-area: myphotos4;}
+
+#main10 {grid-area: main10;}
+
+

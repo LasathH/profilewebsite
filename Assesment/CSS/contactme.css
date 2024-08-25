@@ -1,0 +1,78 @@
+#wrapper{display: grid;
+    grid-template-areas: "nav nav nav"
+                    "title title title"
+                     "image gmail gmail"
+                     "image2 discord discord"
+        "image3 instagram instagram";
+background-color: black;
+border: 20px solid black;
+height:620px}
+
+#nav{display: grid;
+    grid-template-areas:"hightlights homepage aboutme";
+grid-gap: 10px;
+    padding:10px;
+background-color: coral;
+border-radius: 10%;
+height:30px}
+
+
+#nav{grid-area: nav}
+
+#title{grid-area: title;
+text-align: center;
+font-size: 40px;
+text-decoration: underline;
+font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 20px;
+color: teal}
+
+#image{grid-area: image;}
+
+#gmail{grid-area: gmail;
+font-family: "Shadows Into Light", fantasy;
+border-radius: 25px;
+background: coral;
+padding: 10px;
+    margin-bottom: 70px}
+
+#image2{grid-area: image2;
+margin-bottom: 20px}
+
+#discord{grid-area: discord;
+font-family: "Shadows Into Light", fantasy;
+border-radius: 25px;
+background: coral;
+padding: 10px;
+    margin-bottom: 20px;
+height: 80px}
+
+#image3{grid-area: image3}
+
+#instagram{grid-area: instagram;
+background: coral;
+padding: 10px;
+border-radius: 25px;
+margin-bottom: 20px;
+font-family: "Shadows Into Light", fantasy;}
+
+#highlights{background-color: teal;
+border-radius: 25px;
+width: 94px;
+height: 10px;
+padding: 10px;
+font-family: "Aboreto", monospace;}
+
+#aboutme{background-color: teal;
+border-radius: 25px;
+width: 94px;
+height: 10px;
+padding: 10px;
+font-family: "Aboreto", monospace;}
+
+#homepage{background-color: teal;
+border-radius: 25px;
+width: 94px;
+height: 10px;
+padding: 10px;
+font-family: "Aboreto", monospace;}
